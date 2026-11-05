@@ -1,0 +1,48 @@
+{
+  "configVersion": "v3",
+  "app": {
+    "appId": 1091002,
+    "appName": "Meter",
+    "appType": "watchface",
+    "version": {
+      "code": 1,
+      "name": "1.0.0"
+    },
+    "vender": "trotta",
+    "description": "Residential energy meter watchface",
+    "icon": "icon.png"
+  },
+  "permissions": [],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "1.0.0",
+      "target": "1.0.1",
+      "minVersion": "1.0.0"
+    }
+  },
+  "targets": {
+    "bip6": {
+      "module": {
+        "watchface": {
+          "path": "watchface/index",
+          "main": 1,
+          "editable": 0,
+          "lockscreen": 1
+        }
+      },
+      "platforms": [
+        { "name": "Amazfit Bip 6", "deviceSource": 9765120 },
+        { "name": "Amazfit Bip 6", "deviceSource": 9765121 },
+        { "name": "Amazfit Bip 6", "deviceSource": 10158337 }
+      ],
+      "designWidth": 390
+    }
+  },
+  "i18n": {
+    "en-US": { "appName": "Meter" },
+    "pt-BR": { "appName": "Medidor" },
+    "es-ES": { "appName": "Contador" }
+  },
+  "defaultLanguage": "en-US",
+  "debug": false
+}

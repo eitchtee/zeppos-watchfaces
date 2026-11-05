@@ -6,6 +6,7 @@ Each face picks its language from the watch's system language.
 | Face | Preview | Always-on | Download |
 |---|---|---|---|
 | [Retro](Retro/): Casio-style LCD | <img src="Retro/preview.png" width="180" alt="Retro"> | <img src="Retro/preview_aod.png" width="180" alt="Retro always-on display"> | [Retro.zip](https://github.com/eitchtee/zeppos-watchfaces/releases/latest/download/Retro.zip) · [Retro.zab](https://github.com/eitchtee/zeppos-watchfaces/releases/latest/download/Retro.zab) |
+| [Meter](Meter/): residential energy meter with rolling drums | <img src="Meter/preview.png" width="180" alt="Meter"> | <img src="Meter/preview_aod.png" width="180" alt="Meter always-on display"> | [Meter.zip](https://github.com/eitchtee/zeppos-watchfaces/releases/latest/download/Meter.zip) · [Meter.zab](https://github.com/eitchtee/zeppos-watchfaces/releases/latest/download/Meter.zab) |
 
 ## Install
 
@@ -31,6 +32,9 @@ pip install pillow
 The Seven Segment font is free for personal use, so it isn't in this repo.
 Download it from [dafont](https://www.dafont.com/seven-segment.font) and save it
 as `tools/fonts/SevenSegment.ttf`.
+
+Meter uses Bahnschrift, which ships with Windows 10 and later. On another
+system, see the note at the top of `Meter/design.py`.
 
 ### Build
 
