@@ -1,0 +1,11 @@
+{
+  "name": "zeppos-watchfaces",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install --no-save ./node_modules/@zeppos/zeus-cli/private-modules/zeppos-app-utils",
+    "zeus": "zeus"
+  },
+  "devDependencies": {
+    "@zeppos/zeus-cli": "1.9.3"
+  }
+}
